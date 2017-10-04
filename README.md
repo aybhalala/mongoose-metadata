@@ -1,11 +1,16 @@
 # mongoose-metadata
 Mongoose Metadata API Helpers
 
+Install mongoose-metadata :
+```
+npm install --save mongoose-metadata
+```
+
 Work with mongoose model. On your api, create a route 'metadata' for a given model :
 ```javascript
 // First of all, import the module
 const path = require('path')
-const Metadata = require('/path/to/metadata.js')
+const Metadata = require('mongoose-metadata')
 
 // Load Models
 Metadata.loadModels(path.join(__dirname, './models'))
