@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/aluzed/mongoose-metadata/issues"
   },
-  "homepage": "https://github.com/aluzed/mongoose-metadata#readme"
+  "homepage": "https://github.com/aluzed/mongoose-metadata#readme",
+  "dependencies": {
+    "mongoose": "^4.12.1",
+    "require-walk": "^1.0.0"
+  }
 }
