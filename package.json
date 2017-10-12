@@ -1,15 +1,12 @@
 {
   "name": "mongoose-metadata",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mongoose Metadata API Helpers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aluzed/mongoose-metadata.git"
-  },
+  "repository": "git+https://github.com/aluzed/mongoose-metadata.git",
   "keywords": [
     "Mongoose",
     "API"
@@ -19,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/aluzed/mongoose-metadata/issues"
   },
-  "homepage": "https://github.com/aluzed/mongoose-metadata#readme"
+  "homepage": "https://github.com/aluzed/mongoose-metadata#readme",
+  "dependencies": {
+    "require-walk": "^1.0.0"
+  }
 }
