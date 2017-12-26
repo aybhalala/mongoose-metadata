@@ -38,6 +38,13 @@ module.exports = (mongooseObject) => {
           }
         }
 
+        // By default returns true
+        for(let field in tmpSchema) {
+          if (!!tmpSchema[field].options.validate) {
+            tmpSchema[field].options.validate.validator = !!tmpSchema[field].options.validate.validator ? tmpSchema[field].options.validate.validator.toString() : "function(v) { return true }"
+          }
+        }
+
         return res.send(tmpSchema);
       }
     }
