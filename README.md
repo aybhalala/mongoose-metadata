@@ -1,6 +1,8 @@
 # mongoose-metadata
 Mongoose Metadata API Helpers
 
+Forked from https://github.com/aluzed/mongoose-metadata
+
 Install mongoose-metadata :
 ```
 npm install --save mongoose-metadata
