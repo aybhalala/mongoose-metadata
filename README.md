@@ -1,4 +1,4 @@
-# mongoose-metadata
+# mongoose-metadata-generator
 Mongoose Metadata API Helpers
 
 Forked from https://github.com/aluzed/mongoose-metadata
